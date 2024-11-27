@@ -29,5 +29,5 @@ export function normalizeDate(date) {
 }
 
 export function getPath(type, city, appId) {
-  return `https://api.openweathermap.org/data/2.5/${type}?q=${city}&units=metric&lang=ru&appid=${appId}`
+  return `https://ru.api.openweathermap.org/data/2.5/${type}?q=${city}&units=metric&lang=ru&appid=${appId}`
 }
